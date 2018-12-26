@@ -23,6 +23,7 @@
 							cssClass="form-control">
 							<option value="#" disabled="disabled" selected="selected">---
 								Select A Country ---</option>
+<%-- 								 <form:option value="0" label="" /> --%>
 							<form:options items="${countries}" itemValue="id"
 								itemLabel="name" />
 						</form:select>
@@ -38,6 +39,7 @@
 						<form:select id="cityId" path="cityId" cssClass="form-control" multiple="true">
 						<option value="#" disabled="disabled" selected="selected">---
 								Corresponding City(ies) Go Here ---</option>
+<%-- 								<form:option value="0" label="" /> --%>
 							<form:options items="${cities}" itemValue="id" itemLabel="name"/>
 						</form:select>
 					</div>
