@@ -28,7 +28,7 @@
            + data[i].name
            + '</option>';
         }
-//         html += '</option>';
+//         html += '</option>'; 
         
         var strBuilder = [];
         for(key in json){
