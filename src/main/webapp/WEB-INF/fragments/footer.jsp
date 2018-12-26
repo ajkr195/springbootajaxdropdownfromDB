@@ -46,7 +46,7 @@
        },
        error : function(e) {
         alert(e);
-        console.log('Error Occurred..!!');
+        console.log('Error Occurred..!!'); 
        }
       });
     });
