@@ -25,13 +25,13 @@
        success : function(data) {
         var html = '';
         var len = data.length;
-        html += '<option value="0"></option>';
+//         html += '<option value="0"></option>';
         for (var i = 0; i < len; i++) {
          html += '<option value="' + data[i].id + '">'
            + data[i].name
            + '</option>';
         }
-        html += '</option>';
+//         html += '</option>';
         
         var strBuilder = [];
         for(key in json){

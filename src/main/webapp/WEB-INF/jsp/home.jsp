@@ -21,7 +21,8 @@
 					<div class="form-group">
 						<form:select id="countryId" path="countryId"
 							cssClass="form-control">
-							<form:option value="0" label="" />
+							<option value="#" disabled="disabled" selected="selected">---
+								Select A Country ---</option>
 							<form:options items="${countries}" itemValue="id"
 								itemLabel="name" />
 						</form:select>
@@ -34,9 +35,10 @@
 				<div class="col-md-8">
 					<div class="form-group">
 
-						<form:select id="cityId" path="cityId" cssClass="form-control">
-							<form:option value="0" label="" />
-							<form:options items="${cities}" itemValue="id" itemLabel="name" />
+						<form:select id="cityId" path="cityId" cssClass="form-control" multiple="true">
+						<option value="#" disabled="disabled" selected="selected">---
+								Corresponding City(ies) Go Here ---</option>
+							<form:options items="${cities}" itemValue="id" itemLabel="name"/>
 						</form:select>
 					</div>
 				</div>
