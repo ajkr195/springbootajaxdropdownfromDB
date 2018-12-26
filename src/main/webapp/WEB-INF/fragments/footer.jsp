@@ -43,7 +43,7 @@
         
         $('#cityId').html(html);
         console.log('Corresponding cities loaded..!!');
-       },
+       }, 
        error : function(e) {
         alert(e);
         console.log('Error Occurred..!!'); 
